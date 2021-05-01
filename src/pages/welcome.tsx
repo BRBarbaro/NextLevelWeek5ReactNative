@@ -16,11 +16,11 @@ import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 
 export function Welcome(){
-  const navigation = useNavigation()
+  const navigation = useNavigation();
 
   function handleStart() {
     navigation.navigate('UserIdentification');
-  }
+  };
 
   return(
     <SafeAreaView style={styles.container}>

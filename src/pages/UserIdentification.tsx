@@ -17,14 +17,14 @@ import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 
 export function UserIdentification(){
-  const navigation = useNavigation()
+  const navigation = useNavigation();
   const [isFocused, setIsFocused] = useState(false);
   const [isFilled, setIsFilled] = useState(false);
   const [name, setName] = useState<string>();
 
   function handleSubmit() {
     navigation.navigate('Confirmation');
-  }
+  };
 
   function handleInputBlur(){
     setIsFocused(false);
