@@ -157,6 +157,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
+    paddingTop: 50
   },
   header: {
     paddingHorizontal: 30,
@@ -179,6 +180,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingBottom: 5,
     marginLeft: 32,
+    paddingRight: 32,
     marginVertical: 32,
   },
   plants: {
